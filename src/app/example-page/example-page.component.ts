@@ -5,11 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './example-page.component.html',
   styleUrls: ['./example-page.component.scss']
 })
-export class ExamplePageComponent implements OnInit {
+export class ExamplePageComponent {
   tooltipText: string = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  constructor(){}
 }
