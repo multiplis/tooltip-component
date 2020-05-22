@@ -1,1 +1,6 @@
-<button>{{title}}</button>
+<div class="tooltip-text" [ngClass]="isOnTop ? 'bot-arrow' : 'up-arrow'">
+    <div class="content-wrapper">
+        <h6>{{title}}</h6>
+        <div>{{text}}</div>
+    </div>
+</div>

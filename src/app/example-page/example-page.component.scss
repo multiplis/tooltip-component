@@ -1,0 +1,29 @@
+:host{
+    height: 200vh;
+    display: block;
+    box-sizing: border-box;
+}
+.btns-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50%;
+    box-sizing: border-box;
+    .btn-tooltip{
+        margin: 0 10px;
+        min-width: 200px;
+        height: 60px;
+        background-color: cadetblue;
+        outline: none;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 1em;
+
+    }
+}
+
+
+
+
+
