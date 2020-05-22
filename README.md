@@ -1,6 +1,6 @@
 # TooltipComponent
 
-Consist of two pages with two different tooltip examples. Page overflows viewport for showing functionality of tooltip orientation change.
+Consist of two pages with two different tooltip examples. Page has scroll for showing functionality of tooltip orientation change.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
